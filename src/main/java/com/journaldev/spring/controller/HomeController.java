@@ -22,7 +22,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model, HttpServletRequest r) {
-		logger.info("Welcome home! The client lsdfsdfsocale is {}.", r.getParameter("hungnt"));
+		logger.info("Welcomed home! The client lsdfsdfsocale is {}.", r.getParameter("hungnt"));
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
