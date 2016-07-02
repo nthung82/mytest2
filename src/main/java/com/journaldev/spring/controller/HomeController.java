@@ -33,6 +33,7 @@ public class HomeController {
 		return "home";
 	}
 	
+	
 	@RequestMapping(value = "/home1", method = RequestMethod.GET)
 	public String home1(Locale locale, Model model,HttpServletRequest r) {
 		logger.info("Welcome home! The client locale is {}.", r.getParameter("hungnt"));
