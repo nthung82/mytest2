@@ -71,7 +71,7 @@ public class HomeController {
 	public String logout(){
 		return "logout";
 	}
-	///------------------
+	///-------------------
 	@RequestMapping(value="/denied")
 	public String denied(){
 		return "denied";
