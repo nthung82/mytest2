@@ -30,7 +30,7 @@ public class HomeController {
 		
 		
 		model.addAttribute("serverTime", formattedDate );
-		
+		//ddfdfgdfd
 		return "home";
 	}
 	
@@ -71,7 +71,7 @@ public class HomeController {
 	public String logout(){
 		return "logout";
 	}
-	///------------------
+	///------------------//sfsdfs
 	@RequestMapping(value="/denied")
 	public String denied(){
 		return "denied";
