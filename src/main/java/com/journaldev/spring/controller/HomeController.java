@@ -25,7 +25,7 @@ public class HomeController {
 		logger.info("Welcomed home! The client lsdfsdfsocale is {}.", r.getParameter("hungnt"));
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
+		//I am new branch, hwo to fix it
 		String formattedDate = dateFormat.format(date);
 		
 		
