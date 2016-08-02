@@ -22,11 +22,9 @@ public class HomeController {
 	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model, HttpServletRequest r) {
-		logger.info("Welcomed home! The clidsdfdsfdfsfsfdsent lsdfsdfsocale is {}.", r.getParameter("hungnt"));
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		//I am new branch, hwo to fix it./////////////////////////
-		//add nwe to merger
+		
 		String formattedDate = dateFormat.format(date);
 		
 		
