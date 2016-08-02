@@ -20,6 +20,10 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
+	
+	
+	
+	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model, HttpServletRequest r) {
 		Date date = new Date();///////////////11111111111111hungd02sdfsdfsdfscnttsfdsfsdfs
