@@ -24,6 +24,7 @@ public class HomeController {
 	public String home(Locale locale, Model model, HttpServletRequest r) {
 		Date date = new Date();///////////////11111111111111hungd0sdfsdfsdfs2cnttfsdfsdfsdfs
 //vxcvxcvxcv1sdfdsfsdfs
+		//aaaaaaaaaaa
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
