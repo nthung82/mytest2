@@ -56,9 +56,7 @@ Result r = new Result();
 boolean result=false;
 		try {
 			JSONObject jsonObject = new JSONObject(json);
-			// System.err.println(jsonObject.getString("mobile")+
-			// jsonObject.getString("password")+ jsonObject.getString("name")+
-			// jsonObject.getString("address"));
+		
 			result= serviceImpl.register(jsonObject.getString("mobile"),
 					jsonObject.getString("password"),
 					jsonObject.getString("name"),
