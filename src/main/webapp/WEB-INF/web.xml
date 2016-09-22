@@ -6,7 +6,7 @@
 	<!-- Spring Security Configuration File -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring/appServlet/spring-security.xml</param-value>
+		<param-value>/WEB-INF/spring/appServlet/spring-security.xml,/WEB-INF/spring/appServlet/spring-database.xml</param-value>
 	</context-param>
 
 	<!-- Creates the Spring Container shared by all Servlet and Filters -->
