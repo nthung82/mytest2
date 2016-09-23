@@ -94,7 +94,7 @@ boolean result=false;
 
 		try {
 			JSONObject jsonObject = new JSONObject(json);
-			// User u= new User();
+			// User u= new User();aaaaaaaaaaaaaaaaaaa
 			result= serviceImpl.sendData(jsonObject.getString("name"),
 					jsonObject.getString("lon"), jsonObject.getString("lat"));
 			// return u;
