@@ -84,7 +84,7 @@ boolean result=false;
 			return null;
 		}
 	}
-
+////////////
 	@RequestMapping(value = "/sendData", method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE,consumes = MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody
 	Result senDat(@RequestBody String json) {
